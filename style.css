@@ -6,7 +6,7 @@ html {
 
 .model {
   position: absolute;
-  top: 20%;
+  top: 20vmin;
   width: 90%;
   left: 0;
   right: 0;
@@ -19,7 +19,7 @@ html {
   font-family: "lato", sans-serif;
   font-weight: 500;
   font-size:6vmin;
-  letter-spacing: 0.2vw;
+  letter-spacing: 0.1em;
   background: -webkit-linear-gradient(white, #38495a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -29,9 +29,9 @@ html {
   text-align: center;
   font-family: "lato", sans-serif;
   font-weight: 100;
-  font-size: 4vmin;
-  padding-left: 5vw;
-  padding-right: 5vw;
+  font-size: 3vmin;
+  padding-left: 10vw;
+  padding-right: 10vw;
 }
 
 p a {
@@ -56,8 +56,8 @@ p a:hover {
 }
 
 .icon {
-  width: 5vmin;
-  height: 5vmin;
+  width: 4vmin;
+  height: 4vmin;
 }
 
 .contact-btn {
